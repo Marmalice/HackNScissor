@@ -1,0 +1,935 @@
+fileFormatVersion: 2
+guid: c3ff60f020879c148a20e3c78b5c0c7e
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: the girl
+    second: {fileID: 2100000, guid: accaf27b7f587724d95dedec4e9df16b, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Dodge
+      takeName: Dodge
+      internalID: 5522812681064789136
+      firstFrame: 0
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.08753835
+        functionName: PlaySingleEvent
+        data: Fabric Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.20037457
+        functionName: PlaySingleEvent
+        data: Fabric Fast
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.21503758
+        functionName: StartIFrames
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: eab4b234bfb56da47a51bd13104823df, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.23893487
+        functionName: PlaySingleEvent
+        data: Fabric Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.48555955
+        functionName: PlaySingleEvent
+        data: Foot Step Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.50180507
+        functionName: PlaySingleEvent
+        data: Foot Step Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.5126354
+        functionName: CanCancelState
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: a3d9cb97a1c00a84997978f23f86d11d, type: 3}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.70306176
+        functionName: StopIFrames
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: eab4b234bfb56da47a51bd13104823df, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Thrust1
+      takeName: Thrust1
+      internalID: -3447784663412010685
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.11762982
+        functionName: StartAttack
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: eab4b234bfb56da47a51bd13104823df, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.17148015
+        functionName: PlaySingleEvent
+        data: Fabric Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.232852
+        functionName: PlaySingleEvent
+        data: Foot Step Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.29783395
+        functionName: StopAttack
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: eab4b234bfb56da47a51bd13104823df, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.3429603
+        functionName: CanCancelState
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: a3d9cb97a1c00a84997978f23f86d11d, type: 3}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.64440435
+        functionName: PlaySingleEvent
+        data: Foot Step Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sweep2
+      takeName: Sweep2
+      internalID: -6759327081439345095
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.1696751
+        functionName: PlaySingleEvent
+        data: Foot Step Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.3537906
+        functionName: StartAttack
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: eab4b234bfb56da47a51bd13104823df, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.3736462
+        functionName: PlaySingleEvent
+        data: Fabric Fast
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.3898917
+        functionName: PlaySingleEvent
+        data: Foot Step Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.4801444
+        functionName: PlaySingleEvent
+        data: Fabric Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.6046931
+        functionName: StopAttack
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: eab4b234bfb56da47a51bd13104823df, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6949459
+        functionName: CanCancelState
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: a3d9cb97a1c00a84997978f23f86d11d, type: 3}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.74909747
+        functionName: PlaySingleEvent
+        data: Foot Step Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FightIdle
+      takeName: FightIdle
+      internalID: 1866277436107456054
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Thrust2
+      takeName: Thrust2
+      internalID: -7624177010453240435
+      firstFrame: 0
+      lastFrame: 109
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.15884475
+        functionName: PlaySingleEvent
+        data: Foot Step Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.28158844
+        functionName: StartAttack
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: eab4b234bfb56da47a51bd13104823df, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.30505416
+        functionName: PlaySingleEvent
+        data: Fabric Fast
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.34115523
+        functionName: StopAttack
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: eab4b234bfb56da47a51bd13104823df, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.44584838
+        functionName: PlaySingleEvent
+        data: Foot Step Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.48014438
+        functionName: CanCancelState
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: a3d9cb97a1c00a84997978f23f86d11d, type: 3}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.5270758
+        functionName: PlaySingleEvent
+        data: Foot Step Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Sweep1
+      takeName: Sweep1
+      internalID: 6899036593448972361
+      firstFrame: 0
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.07761733
+        functionName: PlaySingleEvent
+        data: Fabric Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.10108303
+        functionName: PlaySingleEvent
+        data: Foot Step Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.1498195
+        functionName: StartAttack
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: eab4b234bfb56da47a51bd13104823df, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.23799026
+        functionName: PlaySingleEvent
+        data: Fabric Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.25631768
+        functionName: PlaySingleEvent
+        data: Foot Step Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.3630982
+        functionName: StopAttack
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: eab4b234bfb56da47a51bd13104823df, type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.3808664
+        functionName: CanCancelState
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: a3d9cb97a1c00a84997978f23f86d11d, type: 3}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      internalID: 8483079145171707185
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.07400722
+        functionName: PlaySingleEvent
+        data: Foot Step Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.54151624
+        functionName: PlaySingleEvent
+        data: Foot Step Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GirlHit
+      takeName: GirlHit
+      internalID: 1537153979541750416
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.25090253
+        functionName: PlaySingleEvent
+        data: Fabric Light
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      - time: 0.6498195
+        functionName: CanCancelState
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: a3d9cb97a1c00a84997978f23f86d11d, type: 3}
+        floatParameter: 1
+        intParameter: 1
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GirlTransformationIn
+      takeName: GirlTransformationIn
+      internalID: 9054296592071656923
+      firstFrame: 0
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Glow
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.2
+            value: 0
+            inSlope: -0
+            outSlope: 1.98
+            tangentMode: 69
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.7
+            value: 0.99
+            inSlope: 1.98
+            outSlope: 0
+            tangentMode: 69
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 0.99
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0
+          preInfinity: 2
+          postInfinity: 2
+          rotationOrder: 4
+      events:
+      - time: 0.89891696
+        functionName: SwapCharacters
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GirlTransformationOut
+      takeName: GirlTransformationOut
+      internalID: -7904073996780966658
+      firstFrame: 30.300001
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Glow
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0.99
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 69
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.3
+            value: 0.99
+            inSlope: -0
+            outSlope: -2.4750001
+            tangentMode: 69
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.7
+            value: 0
+            inSlope: -2.4750001
+            outSlope: 0
+            tangentMode: 69
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: -0
+            outSlope: 0
+            tangentMode: 69
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0
+          preInfinity: 2
+          postInfinity: 2
+          rotationOrder: 4
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: MainGirl(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Girl
+      parentName: MainGirl(Clone)
+      position: {x: 0.000941788, y: -0.0000000014239367, z: -0.0005007607}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GirlRig
+      parentName: MainGirl(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.84397465, y: 0.84397465, z: 0.84397465}
+    - name: Pelvis
+      parentName: GirlRig
+      position: {x: 0.0000000044139834, y: -0.018160963, z: 1.0543218}
+      rotation: {x: 0.7732315, y: -0.00000007559346, z: -0.00000009217638, w: 0.6341239}
+      scale: {x: 0.99999994, y: 0.99999964, z: 0.9999998}
+    - name: Spine
+      parentName: Pelvis
+      position: {x: 0.000000003434252, y: 0.19410159, z: 0.0000000081490725}
+      rotation: {x: -0.12008275, y: 0.00000011834667, z: 0.000000014314971, w: 0.9927639}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000005}
+    - name: Chest
+      parentName: Spine
+      position: {x: 0.000000008381903, y: 0.12938169, z: 0.00000006263144}
+      rotation: {x: 0.0111228665, y: -0.00000011920192, z: -0.0000000013259502, w: 0.99993813}
+      scale: {x: 1, y: 1.0000001, z: 0.9999997}
+    - name: Neck
+      parentName: Chest
+      position: {x: 0.000000008381903, y: 0.25638422, z: 0.000000017374987}
+      rotation: {x: 0.068773165, y: 4.973799e-14, z: -0.000000016396795, w: 0.9976324}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1}
+    - name: Head
+      parentName: Neck
+      position: {x: -0.0000000018626451, y: 0.08798366, z: 0.00000007334165}
+      rotation: {x: -0.05806788, y: 0.00000011900813, z: 0.000000006922222, w: 0.9983127}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Hair
+      parentName: Head
+      position: {x: -6.801262e-10, y: 0.10017771, z: -0.118483216}
+      rotation: {x: 0.9844753, y: -0.000000020924018, z: 0.00000011735862, w: -0.17552324}
+      scale: {x: 1.0000001, y: 1.0000023, z: 1.0000001}
+    - name: L_Eye
+      parentName: Head
+      position: {x: -0.04225838, y: 0.13724557, z: 0.06404275}
+      rotation: {x: -0, y: -0.0000001192093, z: 4.572154e-15, w: 1}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1.0000002}
+    - name: R_Eye
+      parentName: Head
+      position: {x: 0.04225838, y: 0.13724555, z: 0.06404277}
+      rotation: {x: -0, y: 0.0000001192093, z: -9.769962e-15, w: 1}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1.0000002}
+    - name: L_shoulder
+      parentName: Chest
+      position: {x: -0.026781693, y: 0.24557526, z: 0.1154777}
+      rotation: {x: -0.56925654, y: 0.3513488, z: 0.29487458, w: 0.68231225}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: L_upper_arm
+      parentName: L_shoulder
+      position: {x: -0.051539917, y: 0.1625455, z: -0.030115422}
+      rotation: {x: 0.17725033, y: -0.7313199, z: 0.27268803, w: 0.5994954}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000006}
+    - name: L_forearm
+      parentName: L_upper_arm
+      position: {x: 0.00000007683411, y: 0.3102405, z: 0.000000038184226}
+      rotation: {x: 0.02893611, y: 0.034664147, z: -0.012053636, w: 0.9989073}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: L_hand
+      parentName: L_forearm
+      position: {x: -0.000000044703484, y: 0.2656267, z: -0.00000010430813}
+      rotation: {x: -0.043421265, y: -0.0036284584, z: -0.0012172561, w: 0.9990496}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: R_shoulder
+      parentName: Chest
+      position: {x: 0.026781758, y: 0.24557531, z: 0.115477756}
+      rotation: {x: -0.56925666, y: -0.35134858, z: -0.29487422, w: 0.6823124}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: R_upper_arm
+      parentName: R_shoulder
+      position: {x: 0.051539924, y: 0.16254556, z: -0.030115416}
+      rotation: {x: -0.17725058, y: -0.73131984, z: 0.27268815, w: -0.59949535}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: R_forearm
+      parentName: R_upper_arm
+      position: {x: 9.313226e-10, y: 0.3102405, z: 0.0000000037252903}
+      rotation: {x: 0.02893585, y: -0.034664422, z: 0.0120531395, w: 0.9989073}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
+    - name: R_hand
+      parentName: R_forearm
+      position: {x: -0.000000059604645, y: 0.26562685, z: 0.000000009313226}
+      rotation: {x: -0.043421254, y: 0.0036284067, z: 0.0012173813, w: 0.9990496}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1}
+    - name: L_thigh
+      parentName: Pelvis
+      position: {x: -0.09799999, y: 0.0016785813, z: 0.026022788}
+      rotation: {x: 0.99029255, y: -0.0000000030717473, z: -0.0000002356735, w: 0.13899925}
+      scale: {x: 1, y: 1, z: 1.0000023}
+    - name: L_shin
+      parentName: L_thigh
+      position: {x: -0.000000022351742, y: 0.5014445, z: 0.000000044703484}
+      rotation: {x: 0.09020101, y: 0.00000011844387, z: -0.0000000138419995, w: 0.9959236}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999934}
+    - name: L_foot
+      parentName: L_shin
+      position: {x: -0.00000009452924, y: 0.45421475, z: 9.313226e-10}
+      rotation: {x: -0.52736306, y: 1.9184651e-13, z: 1.3322675e-13, w: 0.84964}
+      scale: {x: 1, y: 1.0000002, z: 0.99999934}
+    - name: L_toe
+      parentName: L_foot
+      position: {x: -0.0000000027939677, y: 0.12924533, z: 0.0000000060535967}
+      rotation: {x: -0.000000012050505, y: 0.9612485, z: -0.2756834, w: 0.00000004201749}
+      scale: {x: 1.0000005, y: 0.9999991, z: 1.0000012}
+    - name: R_thigh
+      parentName: Pelvis
+      position: {x: 0.098000005, y: 0.0016786484, z: 0.026022702}
+      rotation: {x: 0.99029255, y: 0.00000003006829, z: 4.30866e-10, w: 0.13899925}
+      scale: {x: 1.0000001, y: 1, z: 1.0000015}
+    - name: R_shin
+      parentName: R_thigh
+      position: {x: -0.000000007450581, y: 0.50144446, z: -0.00000008428469}
+      rotation: {x: 0.09020101, y: -0.000000119003424, z: 0.000000007663615, w: 0.9959236}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: R_foot
+      parentName: R_shin
+      position: {x: 2.3283064e-10, y: 0.45421472, z: 0.000000035652192}
+      rotation: {x: -0.52736324, y: -1.8474108e-13, z: -1.1191047e-13, w: 0.8496399}
+      scale: {x: 0.99999994, y: 1.0000008, z: 1.0000004}
+    - name: R_toe
+      parentName: R_foot
+      position: {x: 0.000000004656613, y: 0.12924539, z: -0.0000000017462298}
+      rotation: {x: 0.000000012050494, y: 0.96124864, z: -0.27568313, w: -0.000000042017508}
+      scale: {x: 1, y: 0.999999, z: 1.0000006}
+    - name: Tail
+      parentName: Pelvis
+      position: {x: 0.000000015279511, y: -0.037421446, z: -0.06322135}
+      rotation: {x: -0.80312055, y: -0.000000054313077, z: -0.0000000070513155, w: 0.5958167}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: Tail1
+      parentName: Tail
+      position: {x: -0.000000008032657, y: 0.16889893, z: -0.000000049360096}
+      rotation: {x: 0.000000029802315, y: -1.06581385e-14, z: 5.6843405e-14, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: Tail2
+      parentName: Tail1
+      position: {x: -0.000000006519258, y: 0.16889895, z: -0.0000000119325705}
+      rotation: {x: 0.000000119209275, y: 2.8421696e-14, z: -5.329069e-14, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Tail3
+      parentName: Tail2
+      position: {x: -0.000000014901161, y: 0.16889897, z: -0.000000004656613}
+      rotation: {x: -0.0000001490116, y: -2.1316282e-14, z: -2.131628e-14, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Weapon
+      parentName: Pelvis
+      position: {x: 0.3533572, y: 0.19290929, z: -0.23956306}
+      rotation: {x: 0.63412404, y: 0.00000012597539, z: -0.00000004787504, w: 0.7732314}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000005}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: Pelvis
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

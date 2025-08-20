@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CatFighter
+  m_Controller: {fileID: 9100000, guid: 030f98ff7f1a040408eda8598627872c, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 5522812681064789136, guid: c3ff60f020879c148a20e3c78b5c0c7e, type: 3}
+    m_OverrideClip: {fileID: -5500272815880661670, guid: b290a74c8ef005847b60445889d33e8f, type: 3}
+  - m_OriginalClip: {fileID: 1866277436107456054, guid: c3ff60f020879c148a20e3c78b5c0c7e, type: 3}
+    m_OverrideClip: {fileID: 4973846331197513251, guid: b290a74c8ef005847b60445889d33e8f, type: 3}
+  - m_OriginalClip: {fileID: 1537153979541750416, guid: c3ff60f020879c148a20e3c78b5c0c7e, type: 3}
+    m_OverrideClip: {fileID: 8445497274818482556, guid: b290a74c8ef005847b60445889d33e8f, type: 3}
+  - m_OriginalClip: {fileID: 9054296592071656923, guid: c3ff60f020879c148a20e3c78b5c0c7e, type: 3}
+    m_OverrideClip: {fileID: 7284441951917651138, guid: b290a74c8ef005847b60445889d33e8f, type: 3}
+  - m_OriginalClip: {fileID: -7904073996780966658, guid: c3ff60f020879c148a20e3c78b5c0c7e, type: 3}
+    m_OverrideClip: {fileID: 334647589201253255, guid: b290a74c8ef005847b60445889d33e8f, type: 3}
+  - m_OriginalClip: {fileID: 8483079145171707185, guid: c3ff60f020879c148a20e3c78b5c0c7e, type: 3}
+    m_OverrideClip: {fileID: 4536823892184160425, guid: b290a74c8ef005847b60445889d33e8f, type: 3}
+  - m_OriginalClip: {fileID: 6899036593448972361, guid: c3ff60f020879c148a20e3c78b5c0c7e, type: 3}
+    m_OverrideClip: {fileID: -6798167148694174884, guid: b290a74c8ef005847b60445889d33e8f, type: 3}
+  - m_OriginalClip: {fileID: -3447784663412010685, guid: c3ff60f020879c148a20e3c78b5c0c7e, type: 3}
+    m_OverrideClip: {fileID: 691563761216174593, guid: b290a74c8ef005847b60445889d33e8f, type: 3}

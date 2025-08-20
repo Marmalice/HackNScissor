@@ -1,0 +1,396 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8447507262257279110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Foot Step Light
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Foot Step Light
+  Guid:
+    Data1: -422151176
+    Data2: 1262195002
+    Data3: 1901695619
+    Data4: 1824336754
+  Banks:
+  - {fileID: 2412449515456733995}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8068204679602485845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Rustle Armored
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Rustle Armored
+  Guid:
+    Data1: -1539560234
+    Data2: 1169624531
+    Data3: 85272767
+    Data4: -1767605696
+  Banks:
+  - {fileID: 2412449515456733995}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7265375634551599722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Woosh Light
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Woosh Light
+  Guid:
+    Data1: 1189810711
+    Data2: 1265383969
+    Data3: 41700785
+    Data4: 696499748
+  Banks:
+  - {fileID: 2412449515456733995}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4599369021590953901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Art/Banks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638912559472002406
+  FileSizes:
+  - Name: Desktop
+    Value: 1252
+  Exists: 1
+--- !u!114 &-4346731298498479681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Fabric Light
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Fabric Light
+  Guid:
+    Data1: -87685481
+    Data2: 1167558326
+    Data3: 1589502630
+    Data4: 1242794455
+  Banks:
+  - {fileID: 2412449515456733995}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3277352329630552633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Crunch
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Crunch
+  Guid:
+    Data1: -691326100
+    Data2: 1136699320
+    Data3: -456679747
+    Data4: 1737751994
+  Banks:
+  - {fileID: 2412449515456733995}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2949073889016724521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Rustle Wood
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Rustle Wood
+  Guid:
+    Data1: 1834079048
+    Data2: 1247913044
+    Data3: 2105107623
+    Data4: 1656362285
+  Banks:
+  - {fileID: 2412449515456733995}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2635756922014337683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Cut
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Cut
+  Guid:
+    Data1: 1317911762
+    Data2: 1217172552
+    Data3: -863624064
+    Data4: 2118572900
+  Banks:
+  - {fileID: 2412449515456733995}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -4599369021590953901}
+  - {fileID: 2412449515456733995}
+  EditorEvents:
+  - {fileID: -7265375634551599722}
+  - {fileID: -4346731298498479681}
+  - {fileID: 4811674194594826165}
+  - {fileID: 8684696691641133130}
+  - {fileID: -8447507262257279110}
+  - {fileID: -8068204679602485845}
+  - {fileID: -2635756922014337683}
+  - {fileID: -2949073889016724521}
+  - {fileID: 6766613530981426225}
+  - {fileID: 6486678497489224060}
+  - {fileID: -3277352329630552633}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 2412449515456733995}
+  StringsBanks:
+  - {fileID: -4599369021590953901}
+  cacheVersion: 131848
+  cacheTime: 638912559472002406
+  SerializableEventsDict:
+  - key: event:/SFX/Woosh Light
+    index: 0
+  - key: event:/SFX/Fabric Light
+    index: 1
+  - key: event:/SFX/Footstep Armored
+    index: 2
+  - key: event:/SFX/Fabric Fast
+    index: 3
+  - key: event:/SFX/Foot Step Light
+    index: 4
+  - key: event:/SFX/Rustle Armored
+    index: 5
+  - key: event:/SFX/Cut
+    index: 6
+  - key: event:/SFX/Rustle Wood
+    index: 7
+  - key: event:/SFX/Footstep Wood
+    index: 8
+  - key: event:/SFX/Hit Metal
+    index: 9
+  - key: event:/SFX/Crunch
+    index: 10
+--- !u!114 &2412449515456733995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Art/Banks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638912559471944950
+  FileSizes:
+  - Name: Desktop
+    Value: 221376
+  Exists: 1
+--- !u!114 &4811674194594826165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Footstep Armored
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Footstep Armored
+  Guid:
+    Data1: -944825921
+    Data2: 1139309902
+    Data3: -1229143121
+    Data4: 197921241
+  Banks:
+  - {fileID: 2412449515456733995}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6486678497489224060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Hit Metal
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Hit Metal
+  Guid:
+    Data1: 134065805
+    Data2: 1304941250
+    Data3: -1507825249
+    Data4: -887012121
+  Banks:
+  - {fileID: 2412449515456733995}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6766613530981426225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Footstep Wood
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Footstep Wood
+  Guid:
+    Data1: 1368248299
+    Data2: 1112181996
+    Data3: -605546847
+    Data4: 1438937771
+  Banks:
+  - {fileID: 2412449515456733995}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8684696691641133130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Fabric Fast
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Fabric Fast
+  Guid:
+    Data1: -1026639125
+    Data2: 1197824340
+    Data3: -2039916928
+    Data4: -1731106434
+  Banks:
+  - {fileID: 2412449515456733995}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
