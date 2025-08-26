@@ -7,6 +7,7 @@ public class BehaviourCharacter : Character
     private BehaviourAction[] actions = new BehaviourAction[0];
     private NewAction hitAction;
     private NewAction dieAction;
+    [SerializeField] private bool debugStates = false;
     int tempHP = 3;
 
     [HideInInspector] public UnityEvent AttackEnd;
@@ -50,11 +51,24 @@ public class BehaviourCharacter : Character
 
     void Update()
     {
-        controller.Move(Vector3.down * Time.deltaTime * 9.81f);
+        controller.Move(Vector3.down * (Time.deltaTime * 9.81f));
 
-        wishDir = player.transform.position - transform.position;
+        if (faction == Faction.Enemy)
+        {
+            wishDir = player.transform.position - transform.position;
+        }
+        else
+        {
+            GetClosestTarget();
+        }
 
         currentAction.UpdateAction();
+    }
+
+    void GetClosestTarget()
+    {
+        //TURN THIS INTO AN ACTUAL FUNCTION
+        wishDir = AggroManager.aggroManager.targetables[0].transform.position - transform.position;
     }
 
     void OnAnimatorMove()
@@ -74,11 +88,15 @@ public class BehaviourCharacter : Character
 
     public void ChangeAction(NewAction nextAction)
     {
-        //Debug.Log("Changing Action from " + currentAction.GetType());
+        if(debugStates)
+        Debug.Log("Changing Action from " + currentAction.GetType());
+        
         currentAction.EndAction();
         currentAction = nextAction.action;
         currentAction.StartAction(nextAction.context);
-        //Debug.Log("Changed Action to " + nextAction.action.GetType());
+        
+        if(debugStates)
+        Debug.Log("Changed Action to " + nextAction.action.GetType());
     }
 
     public override void RegisterHit()

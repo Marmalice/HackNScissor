@@ -24,7 +24,7 @@ public class MeleeWeapon : MonoBehaviour
             switch (target.GetHashCode())
             {
                 case 1:
-                    if (other.gameObject.tag == "Player" && !hitlist.Contains(other))
+                    if (other.gameObject.tag != "Enemy" && !hitlist.Contains(other))
                     {
                         hitlist.Add(other);
                         hitchar.ReceiveHit();
@@ -33,7 +33,7 @@ public class MeleeWeapon : MonoBehaviour
                     }
                     break;
                 case 0:
-                    if (other.gameObject.tag != "Player" && !hitlist.Contains(other))
+                    if (other.gameObject.tag == "Enemy" && !hitlist.Contains(other))
                     {
                         hitlist.Add(other);
                         hitchar.RegisterHit();
