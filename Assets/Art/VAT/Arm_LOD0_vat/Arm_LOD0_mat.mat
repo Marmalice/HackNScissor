@@ -75,7 +75,7 @@ Material:
     - _frame: 0
     - _frames: 32
     - _resolutionY: 64
-    - _speed: 1
+    - _speed: 0.5
     m_Colors:
     - _Basecolor: {r: 0, g: 0, b: 0, a: 0}
     - _maxValues: {r: -0.6, g: 0.4, b: 2.1, a: 0}
