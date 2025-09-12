@@ -1,0 +1,4 @@
+BehaviourNode #title{
+    background-color: black;
+    color: black;
+}

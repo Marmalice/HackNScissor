@@ -1,31 +1,30 @@
 using UnityEngine;
 using UnityEngine.Events;
 
+[CreateAssetMenu(fileName = "Hit", menuName = "Behaviour/Hit")]
 public class Hit : BehaviourAction
 {
-    [SerializeField] private NewAction action;
-
-    public override void EndAction()
+    public override void EndAction(BehaviourCharacter character, ActionContext context)
     {
     }
 
-    public override void StartAction(ActionContext context)
+    public override void StartAction(BehaviourCharacter character, ActionContext context)
     {
         character.animator.SetTrigger("Hit");
     }
 
-    private void HitComplete()
+    private void HitComplete(BehaviourCharacter character, EmptyContext context)
     {
         //Debug.Log("Hit Complete");
-        character.ChangeAction(action);
+        //character.ChangeAction();
     }
 
-    public override void UpdateAction()
+    public override void UpdateAction(BehaviourCharacter character, ActionContext context)
     {
     }
 
-    protected override void InitializeAction()
+    public override ActionContext ActionContext()
     {
-        character.HitEnd.AddListener(HitComplete);
+        return new EmptyContext();
     }
 }

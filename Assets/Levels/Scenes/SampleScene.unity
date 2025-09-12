@@ -5978,7 +5978,7 @@ MonoBehaviour:
   AnimEnd:
     m_PersistentCalls:
       m_Calls: []
-  startAction: {fileID: 394235543}
+  startAction: {fileID: 0}
   startContext:
     value: 0
     text: 
@@ -6007,80 +6007,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.9, z: 0}
---- !u!114 &394235540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394235535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08257e612f6ef564ab696525f5b1f82a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  action:
-    action: {fileID: 394235542}
-    context:
-      value: 0
-      text: 
---- !u!114 &394235541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394235535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 608ac6c5e45c6a743b2f68a1e90cd83f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  nextAction:
-    action: {fileID: 394235543}
-    context:
-      value: 0
-      text: 
---- !u!114 &394235542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394235535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75a640d3dfdc1604cb2e648de365bb67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  distance: 15
-  nextAction:
-    action: {fileID: 394235541}
-    context:
-      value: 0
-      text: 
---- !u!114 &394235543
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394235535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 932b1d9232fdb5e4392afbfa85d6e95a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  nextState:
-    action: {fileID: 394235542}
-    context:
-      value: 0
-      text: 
-  distance: 5
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -6389,6 +6315,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6202622244675782139, guid: 5a75a4f3e3c8d16468bce386418f4c09, type: 3}
+      propertyPath: startAction
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8256907970704945209, guid: 5a75a4f3e3c8d16468bce386418f4c09, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25.65
@@ -16996,6 +16926,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6202622244675782139, guid: 5a75a4f3e3c8d16468bce386418f4c09, type: 3}
+      propertyPath: startAction
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8256907970704945209, guid: 5a75a4f3e3c8d16468bce386418f4c09, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25.04
@@ -17407,18 +17341,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5137df318c7c1d3489194c5b15142598, type: 3}
       insertIndex: -1
       addedObject: {fileID: 394235538}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5137df318c7c1d3489194c5b15142598, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 394235543}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5137df318c7c1d3489194c5b15142598, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 394235542}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5137df318c7c1d3489194c5b15142598, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 394235541}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5137df318c7c1d3489194c5b15142598, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 394235540}
     - targetCorrespondingSourceObject: {fileID: -2678332828396767581, guid: 5137df318c7c1d3489194c5b15142598, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1404572173}
@@ -22530,11 +22452,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: {fileID: 0}
   distance: 3
-  nextAction:
-    action: {fileID: 1320874977}
-    context:
+  nextAction: {action: {fileID: 1320874977}, context:
       value: 0
       text: 
+}
 --- !u!114 &1320874977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22549,11 +22470,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: {fileID: 0}
   timer: 3
-  nextState:
-    action: {fileID: 1320874976}
-    context:
+  nextState: {action: {fileID: 1320874976}, context:
       value: 0
       text: 
+}
+  currentCount: 0
 --- !u!114 &1320874978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22567,11 +22488,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 0}
-  nextState:
-    action: {fileID: 1320874976}
-    context:
+  nextState: {action: {fileID: 1320874976}, context:
       value: 0
       text: 
+}
   distance: 20
 --- !u!143 &1320874979
 CharacterController:
@@ -22629,7 +22549,7 @@ MonoBehaviour:
   AnimEnd:
     m_PersistentCalls:
       m_Calls: []
-  startAction: {fileID: 1320874978}
+  startAction: {fileID: 0}
   startContext:
     value: 0
     text: 
@@ -23473,6 +23393,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6202622244675782139, guid: 5a75a4f3e3c8d16468bce386418f4c09, type: 3}
+      propertyPath: startAction
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8256907970704945209, guid: 5a75a4f3e3c8d16468bce386418f4c09, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.7
@@ -30062,6 +29986,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6202622244675782139, guid: 5a75a4f3e3c8d16468bce386418f4c09, type: 3}
+      propertyPath: startAction
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8256907970704945209, guid: 5a75a4f3e3c8d16468bce386418f4c09, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.4

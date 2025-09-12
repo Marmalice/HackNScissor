@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -5,43 +6,35 @@ public class BehaviourCharacter : Character
 {
     public BehaviourAction currentAction { get; protected set; }
     private BehaviourAction[] actions = new BehaviourAction[0];
-    private NewAction hitAction;
-    private NewAction dieAction;
     [SerializeField] private bool debugStates = false;
     int tempHP = 3;
 
     [HideInInspector] public UnityEvent AttackEnd;
     [HideInInspector] public UnityEvent HitEnd;
     [HideInInspector] public UnityEvent AnimEnd;
-    [SerializeField] private BehaviourAction startAction;
-    [SerializeField] private ActionContext startContext;
+
+    [SerializeField] private BehaviourTree behaviourTree;
+    [HideInInspector] public ActionContext[] actionContexts;
+    private List<Action> actionStack = new List<Action>();
+
     
 
     void Awake()
     {
-        actions = GetComponents<BehaviourAction>();
         foreach (BehaviourAction action in actions)
         {
-            action.SetupAction(this);
+            //action.SetupAction(this);
         }
-
+        
         MakeInteractable();
 
-        currentAction = startAction;
-        currentAction.StartAction(startContext);
+        //currentAction = startAction;
+        //currentAction.StartAction(startContext);
     }
 
     void MakeInteractable()
     {
-        Hit hit = GetComponent<Hit>();
-
-        if (hit != null)
-            hitAction = new NewAction(hit);
-
-        Die die = GetComponent<Die>();
-
-        if (die != null)
-            dieAction = new NewAction(die);
+        
     }
 
     void Start()
@@ -62,7 +55,7 @@ public class BehaviourCharacter : Character
             GetClosestTarget();
         }
 
-        currentAction.UpdateAction();
+        //currentAction.UpdateAction();
     }
 
     void GetClosestTarget()
@@ -86,14 +79,14 @@ public class BehaviourCharacter : Character
         }
     }
 
-    public void ChangeAction(NewAction nextAction)
+    public void ChangeAction(Action nextAction)
     {
         if(debugStates)
         Debug.Log("Changing Action from " + currentAction.GetType());
         
-        currentAction.EndAction();
-        currentAction = nextAction.action;
-        currentAction.StartAction(nextAction.context);
+        //currentAction.EndAction();
+        //currentAction = nextAction.action;
+        //currentAction.StartAction(nextAction.context);
         
         if(debugStates)
         Debug.Log("Changed Action to " + nextAction.action.GetType());
@@ -105,11 +98,11 @@ public class BehaviourCharacter : Character
 
         if (tempHP > 0)
         {
-            ChangeAction(hitAction);
+            //ChangeAction(hitAction);
         }
         else
         {
-            ChangeAction(dieAction);
+            //ChangeAction(dieAction);
             Die();
         }
     }

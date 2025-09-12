@@ -1,45 +1,24 @@
 using System;
 using UnityEngine;
 
-public abstract class BehaviourAction : MonoBehaviour
+public abstract class BehaviourAction : ScriptableObject
 {
-    [HideInInspector] public BehaviourCharacter character;
-
-    public abstract void StartAction(ActionContext context);
-    public abstract void UpdateAction();
-    public abstract void EndAction();
-    
-    protected abstract void InitializeAction();
-
-    public void SetupAction(BehaviourCharacter owner)
-    {
-        character = owner;
-        InitializeAction();
-    }
+    public abstract void StartAction(BehaviourCharacter character, ActionContext context);
+    public abstract void UpdateAction(BehaviourCharacter character, ActionContext context);
+    public abstract void EndAction(BehaviourCharacter character, ActionContext context);
+    public abstract ActionContext ActionContext();
 }
 
 [Serializable]
-public struct ActionContext
-{
-    public ActionContext(int val = 0)
-    {
-        value = val;
-        text = "";
-    }
-    public int value;
-    public string text;
-}
+public abstract class ActionContext : ScriptableObject
+{}
+
+public class EmptyContext : ActionContext
+{ }
 
 [Serializable]
-public struct NewAction
+public struct Action
 {
-    public NewAction(BehaviourAction newAction)
-    {
-        action = newAction;
-
-        context = new ActionContext();
-    }
-
     public BehaviourAction action;
     public ActionContext context;
 }

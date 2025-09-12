@@ -96,7 +96,7 @@ MonoBehaviour:
   Path: Assets/Art/Banks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638912559472002406
+  lastModified: 638926644376132469
   FileSizes:
   - Name: Desktop
     Value: 1252
@@ -242,7 +242,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -4599369021590953901}
   cacheVersion: 131848
-  cacheTime: 638912559472002406
+  cacheTime: 638926644376132469
   SerializableEventsDict:
   - key: event:/SFX/Woosh Light
     index: 0
@@ -281,7 +281,7 @@ MonoBehaviour:
   Path: Assets/Art/Banks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638912559471944950
+  lastModified: 638926644376132469
   FileSizes:
   - Name: Desktop
     Value: 221376

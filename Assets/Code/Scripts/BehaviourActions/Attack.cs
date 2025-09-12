@@ -1,44 +1,61 @@
 using UnityEngine;
-using UnityEngine.Events;
+using System;
 
+[CreateAssetMenu(fileName = "Attack", menuName = "Behaviour/Attack")]
 public class Attack : BehaviourAction
 {
-    public NewAction nextAction;
-    private bool interrupted = false;
 
-    protected override void InitializeAction()
+    // protected override void InitializeAction(BehaviourCharacter character)
+    // {
+    //     character.AttackEnd.AddListener(() => AttackComplete(character));
+    // }
+
+    public override void EndAction(BehaviourCharacter character, ActionContext context)
     {
-        character.AttackEnd.AddListener(AttackComplete);
+
     }
 
-    public override void EndAction()
+    public override void StartAction(BehaviourCharacter character, ActionContext context)
     {
-        interrupted = true;
-    }
-
-    public override void StartAction(ActionContext context)
-    {
-        interrupted = false;
-
-        if (context.value != 0)
-            character.animator.SetInteger("AttackChoice", context.value);
-
-        character.animator.SetTrigger("Attack");
-    }
-
-    private void AttackComplete()
-    {
-        if (!interrupted)
+        if (context is AttackVars vars)
         {
-            //Debug.Log("Atk Complete");
-            character.ChangeAction(nextAction);
+            if (vars.attackIndex != 0)
+            {
+                character.animator.SetInteger("AttackChoice", vars.attackIndex);
+            }
+
+            character.animator.SetTrigger("Attack");
         }
     }
-    public override void UpdateAction()
+
+    private void AttackComplete(BehaviourCharacter character, ActionContext context)
+    {
+        if (context is AttackVars vars)
+        {
+            if (!vars.interrupted)
+            {
+                //Debug.Log("Atk Complete");
+                //character.ChangeAction();
+            }
+        }
+    }
+    public override void UpdateAction(BehaviourCharacter character, ActionContext context)
     {
         if (character.canTurn)
         {
             character.RotateToTarget();
         }
     }
+
+    public override ActionContext ActionContext()
+    {
+        return CreateInstance<AttackVars>();
+    }
+}
+
+[Serializable]
+public class AttackVars : ActionContext
+{
+    [HideInInspector] public bool interrupted;
+    public int attackIndex;
 }
