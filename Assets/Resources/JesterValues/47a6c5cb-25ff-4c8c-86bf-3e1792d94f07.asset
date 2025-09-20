@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 66640155d36f404d8083444216486b20, type: 3}
   m_Name: 47a6c5cb-25ff-4c8c-86bf-3e1792d94f07
   m_EditorClassIdentifier: Assembly-CSharp::AttackVars
   interrupted: 0

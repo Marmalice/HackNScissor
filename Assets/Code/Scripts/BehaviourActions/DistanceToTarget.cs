@@ -14,7 +14,7 @@ public class DistanceToTarget : BehaviourAction
 
     public override void UpdateAction(BehaviourCharacter character, ActionContext context)
     {
-        if (context is DTTVars vars)
+        if (context is DttVars vars)
         {
             switch (vars.comparison)
             {
@@ -38,26 +38,6 @@ public class DistanceToTarget : BehaviourAction
 
     public override ActionContext ActionContext()
     {
-        return CreateInstance<DTTVars>();
+        return CreateInstance<DttVars>();
     }
-}
-
-[Serializable]
-public class DTTVars : ActionContext
-{
-    public DTTVars(float val)
-    {
-        distance = val;
-        comparison = Comparison.LessThan;
-    }
-
-    public Comparison comparison;
-    public float distance;
-}
-
-[Serializable]
-public enum Comparison
-{
-    GreaterThan,
-    LessThan
 }

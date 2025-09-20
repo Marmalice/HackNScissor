@@ -13,7 +13,7 @@ public class BehaviourCharacter : Character
     [HideInInspector] public UnityEvent HitEnd;
     [HideInInspector] public UnityEvent AnimEnd;
 
-    [SerializeField] private BehaviourTree behaviourTree;
+    [SerializeField] private GraphData behaviourTree;
     [HideInInspector] public ActionContext[] actionContexts;
     private List<Action> actionStack = new List<Action>();
 

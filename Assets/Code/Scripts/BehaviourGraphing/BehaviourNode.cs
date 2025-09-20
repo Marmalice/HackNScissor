@@ -12,7 +12,6 @@ public class BehaviourNode : Node
 
     public override void OnSelected()
     {
-        Debug.Log(GUID);
         if (action != null)
         {
             var context = GraphSaveUtils.GetContext(graph._fileName, GUID, action.ActionContext());

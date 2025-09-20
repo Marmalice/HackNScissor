@@ -53,9 +53,3 @@ public class Attack : BehaviourAction
     }
 }
 
-[Serializable]
-public class AttackVars : ActionContext
-{
-    [HideInInspector] public bool interrupted;
-    public int attackIndex;
-}

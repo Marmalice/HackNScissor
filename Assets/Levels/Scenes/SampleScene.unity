@@ -5978,10 +5978,8 @@ MonoBehaviour:
   AnimEnd:
     m_PersistentCalls:
       m_Calls: []
-  startAction: {fileID: 0}
-  startContext:
-    value: 0
-    text: 
+  behaviourTree: {fileID: 0}
+  actionContexts: []
 --- !u!143 &394235539
 CharacterController:
   m_ObjectHideFlags: 0
@@ -22438,61 +22436,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1aa3b6b5e2e46fa4392cc37c1779f375, type: 3}
   m_PrefabInstance: {fileID: 2097950656}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1320874976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320874973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed483c084000999498394640080ba3a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  distance: 3
-  nextAction: {action: {fileID: 1320874977}, context:
-      value: 0
-      text: 
-}
---- !u!114 &1320874977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320874973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 419b31668f73cfe4ea0ec859a8ccdb8a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  timer: 3
-  nextState: {action: {fileID: 1320874976}, context:
-      value: 0
-      text: 
-}
-  currentCount: 0
---- !u!114 &1320874978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1320874973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 932b1d9232fdb5e4392afbfa85d6e95a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: {fileID: 0}
-  nextState: {action: {fileID: 1320874976}, context:
-      value: 0
-      text: 
-}
-  distance: 20
 --- !u!143 &1320874979
 CharacterController:
   m_ObjectHideFlags: 0
@@ -22549,10 +22492,8 @@ MonoBehaviour:
   AnimEnd:
     m_PersistentCalls:
       m_Calls: []
-  startAction: {fileID: 0}
-  startContext:
-    value: 0
-    text: 
+  behaviourTree: {fileID: 0}
+  actionContexts: []
 --- !u!1 &1404572170 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2678332828396767581, guid: 5137df318c7c1d3489194c5b15142598, type: 3}
@@ -29778,15 +29719,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1aa3b6b5e2e46fa4392cc37c1779f375, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1320874979}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1aa3b6b5e2e46fa4392cc37c1779f375, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1320874978}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1aa3b6b5e2e46fa4392cc37c1779f375, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1320874977}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1aa3b6b5e2e46fa4392cc37c1779f375, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1320874976}
     - targetCorrespondingSourceObject: {fileID: -161535072825260993, guid: 1aa3b6b5e2e46fa4392cc37c1779f375, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1924034165}

@@ -37,7 +37,7 @@ MonoBehaviour:
     position: {x: 733, y: 137}
   - NodeGUID: 09560d1b-c85c-4552-87bc-5bfdb2f92684
     action: {fileID: 0}
-    position: {x: 326, y: -64}
+    position: {x: 315, y: -8}
   - NodeGUID: 72ee6b90-4d64-43bc-a2c6-fcf17bc9ebba
     action: {fileID: 11400000, guid: 224ae63c3943bcc4483807b0a863d14e, type: 2}
     position: {x: 733, y: -104}
