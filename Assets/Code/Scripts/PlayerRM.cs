@@ -87,19 +87,19 @@ public class PlayerRM : Character
         controller.Move(velocity);
     }
 
-    public void GetMove(InputAction.CallbackContext value)
+    public void OnMove(InputValue value)
     {
-        inputDir = value.ReadValue<Vector2>();
+        inputDir = value.Get<Vector2>();
     }
 
-    public void Getlook(InputAction.CallbackContext value)
+    public void OnLook(InputValue value)
     {
-        look = value.ReadValue<Vector2>();
+        look = value.Get<Vector2>();
     }
 
-    public void GetFire1(InputAction.CallbackContext value)
+    public void OnM1(InputValue value)
     {
-        if (value.ReadValue<float>() > .5f)
+        if (value.Get<float>() > .5f)
         {
             //M1Down = true;
         }
@@ -108,16 +108,16 @@ public class PlayerRM : Character
             //M1Down = false;
         }
 
-        if (value.action.WasReleasedThisFrame())
+        if (value.isPressed)
         {
             //On Press M1
             buffer = BufferedInput.Sweep;
         }
     }
 
-    public void GetFire2(InputAction.CallbackContext value)
+    public void OnM2(InputValue value)
     {
-        if (value.ReadValue<float>() > .5f)
+        if (value.Get<float>() > .5f)
         {
             //M2Down = true;
         }
@@ -126,16 +126,16 @@ public class PlayerRM : Character
             //M2Down = false;
         }
 
-        if (value.action.WasReleasedThisFrame())
+        if (value.isPressed)
         {
             //On Press M2
             buffer = BufferedInput.Thrust;
         }
     }
 
-    public void GetDodge(InputAction.CallbackContext value)
+    public void OnDodge(InputValue value)
     {
-        if (value.ReadValue<float>() > .5f)
+        if (value.Get<float>() > .5f)
         {
             dodgeDown = true;
             animator.SetBool("Sprint", true);
@@ -146,39 +146,25 @@ public class PlayerRM : Character
             animator.SetBool("Sprint", false);
         }
 
-        if (value.action.WasReleasedThisFrame() && !dodgeDown)
+        if (value.isPressed)
         {
             //On Press Dodge
             buffer = BufferedInput.Dodge;
         }
     }
 
-    public void GetSwap(InputAction.CallbackContext value)
+    public void OnInteract(InputValue value)
     {
-        if (value.ReadValue<float>() > .5f)
-        {
-        }
-        else
-        {
-        }
-
-        if (value.action.WasReleasedThisFrame())
+        if (value.isPressed)
         {
             //On Press Swap
             StartTransform();
         }
     }
 
-    public void GetLock(InputAction.CallbackContext value)
+    public void OnLock(InputValue value)
     {
-        if (value.ReadValue<float>() > .5f)
-        {
-        }
-        else
-        {
-        }
-
-        if (value.action.WasReleasedThisFrame())
+        if (value.isPressed)
         {
             //On Press Lock
             LockCamera();
