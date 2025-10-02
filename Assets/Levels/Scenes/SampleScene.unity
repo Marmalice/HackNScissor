@@ -6428,7 +6428,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &628956908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30462,7 +30462,7 @@ MonoBehaviour:
   camDist: 5
   sensitivity: 0.7
   MaxCombo: 2
-  swappedCharacter: {fileID: 348040083}
+  swappedCharacter: {fileID: 888536501}
 --- !u!135 &1785908020
 SphereCollider:
   m_ObjectHideFlags: 0
